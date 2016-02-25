@@ -1,0 +1,36 @@
+/*Inserta tu css aqui*/
+
+body{
+    position: relative;
+    background-color: #DFDFDF;
+
+}
+header{
+
+    background-color: #009688;
+    height: 90px;
+
+}
+.wspp{
+    padding-top: 2%;
+}
+
+.msj{
+    padding: 2%;
+    background-color:white;
+    height: 55px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+}
+#perfil{
+    background-color:#EEEEEE;
+}
+.chat{
+    background-image: url(../image/chat-panel-bg.png);
+    background-color: #DFDFDF;
+    height: 220px;
+
+}
+img{
+    width: 18px;
+    height: 18px;
+}
