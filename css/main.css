@@ -1,7 +1,7 @@
 /*Inserta tu css aqui*/
 
 body{
-    position: relative;
+
     background-color: #DFDFDF;
 
 }
@@ -16,21 +16,69 @@ header{
 }
 
 .msj{
-    padding: 2%;
-    background-color:white;
-    height: 55px;
-    border:1px solid rgba(0, 0, 0, 0.5);
+    padding: 15px 10px;
+    background-color:#FEFEFE;
+    height: 60px;
+    border:1px  solid rgba(0, 0, 0, 0.3);
 }
+.img_contact{
+    padding: 2%;
+
+}
+
 #perfil{
     background-color:#EEEEEE;
 }
 .chat{
     background-image: url(../image/chat-panel-bg.png);
-    background-color: #DFDFDF;
-    height: 220px;
+    background-color: #EDE9E4;
+    height: 600px;
 
 }
+
+#barra{
+    background-color: #DFDFDF;
+}
 img{
-    width: 18px;
-    height: 18px;
+    width:3.5rem;
+    height: 35px;
+    vertical-align: top;
+
+
+}
+input{
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 1%;
+    border-radius: 4px;
+}
+i{
+
+    float: right;
+    margin:5px 10px;
+}
+p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+ a{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+span{
+    font-size: 14px;
+    font-weight: bold;
+}
+a .msj:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.pre-scrollable {
+  max-height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+
+
 }
