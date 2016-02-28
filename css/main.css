@@ -2,6 +2,7 @@
 
 body{
     background-color: #DFDFDF;
+    height: 800px;
 }
 header{
     background-color: #009688;
@@ -11,7 +12,7 @@ header{
     padding-top: 2%;
 }
 .msj{
-    padding: 15px 10px;
+    padding: 13px 10px;
     background-color:#FEFEFE;
     height: 60px;
     border:1px  solid rgba(0, 0, 0, 0.3);
@@ -27,20 +28,22 @@ header{
 
     background-image: url(../image/chat-panel-bg.png);
     background-color: #EDE9E4;
-    height: 600px;
+    height: 540px;
 }
 #barra{
-    background-color: #DFDFDF;
+    background-color: #EEEEEE;
 }
 img{
     width:3.5rem;
     height: 35px;
     vertical-align: top;
+    margin-top: -5px;
+
 }
 input{
     border: solid 1px rgba(0, 0, 0, 0.2);
     width: 100%;
-    padding: 2%;
+    padding: 6px;
     border-radius: 4px;
 }
 i{
@@ -50,8 +53,8 @@ i{
    
 }
 
-p{
-    font-size: 13px;
+p{  margin-top: -5px;
+    font-size: 12px;
     display: inline-block;
 }
 
@@ -69,20 +72,45 @@ a .msj:hover{
 }
 .blanco{
     background-color: transparent;
-    margin: 34px 30px;
+    margin: 30px 30px 0px 30px;
 }
 .msjs{
-    width: 50%;
-    margin: 3px;
+    width: 55%;
+    margin: 4px;
     background-color: white;
    padding: 15px;
-    height: 60px;
+    height: 59px;
     
-    border-radius: 10px;
+    border-radius: 6px;
 }
 #rpta{
-    height: 20px;
-  float: right;
+
+    height: 30px;
+  margin-left: 80%;
+  width: 20%;
     background-color: #DCF8C6;
     
+}
+#rptagian{
+   height: 30px;
+  margin-left: 70%;
+  width: 30%;
+    background-color: #DCF8C6;
+}
+#envio{
+    background-color: #EEEEEE;
+    margin: 0px;
+
+}
+.azul{
+    color: #BBE4F6;
+}
+.rosa{
+    color: #EDA8C9;
+}
+.verde{
+    color: #A4E1C7;
+}
+.amarillo{
+    color: #ECD99C;
 }
