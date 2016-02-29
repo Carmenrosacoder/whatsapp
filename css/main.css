@@ -14,7 +14,7 @@ header{
 .msj{
     padding: 13px 10px;
     background-color:#FEFEFE;
-    height: 60px;
+    height: 65px;
     border:1px  solid rgba(0, 0, 0, 0.3);
 }
 .img_contact{
@@ -28,7 +28,7 @@ header{
 
     background-image: url(../image/chat-panel-bg.png);
     background-color: #EDE9E4;
-    height: 540px;
+    height: 585px;
 }
 #barra{
     background-color: #EEEEEE;
@@ -47,9 +47,10 @@ input{
     border-radius: 4px;
 }
 i{
-
+    font-style: normal;
+    font-size: 12px;
     float: right;
-    margin-top: 8px;
+    margin-top: -5px;
    
 }
 
@@ -73,28 +74,33 @@ a .msj:hover{
 .blanco{
     background-color: transparent;
     margin: 30px 30px 0px 30px;
+    height: 555px;
 }
 .msjs{
-    width: 55%;
-    margin: 4px;
+    width: 60%;
+    margin: 3px;
     background-color: white;
    padding: 15px;
-    height: 59px;
+    height:65px;
     
     border-radius: 6px;
 }
+.msjs i{
+    margin-top: 30px;
+}
 #rpta{
-
-    height: 30px;
-  margin-left: 80%;
-  width: 20%;
+ padding: 4px;
+    height: 35px;
+  margin-left: 75%;
+  width: 25%;
     background-color: #DCF8C6;
     
 }
 #rptagian{
-   height: 30px;
+   height: 35px;
   margin-left: 70%;
   width: 30%;
+  padding: 4px;
     background-color: #DCF8C6;
 }
 #envio{
@@ -113,4 +119,9 @@ a .msj:hover{
 }
 .amarillo{
     color: #ECD99C;
+}
+.hora{
+    padding: 0px;
+    margin: -1px;
+
 }
