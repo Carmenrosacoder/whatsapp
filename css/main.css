@@ -29,6 +29,7 @@ header{
     background-color: #EDE9E4;
     height: 585px;
 }
+
 #barra{
     background-color: #EEEEEE;
 }
@@ -36,7 +37,7 @@ img{
     width:3.5rem;
     height: 35px;
     vertical-align: top;
-    margin-top: -5px;
+    margin-top: -3px;
 
 }
 input{
@@ -49,9 +50,12 @@ i{
     font-style: normal;
     font-size: 12px;
     float: right;
-    margin-top: -5px;
-
-   
+    margin-top: -5px;   
+}
+#config{
+    margin-left:15px;
+    font-size: 18px;
+   margin-top: 8px;
 }
 
 p{  margin-top: -5px;
@@ -73,12 +77,12 @@ a .msj:hover{
 }
 .blanco{
     background-color: transparent;
-    margin: 30px 30px 0px 30px;
+    margin: 25px 30px 0px 30px;
     height: 555px;
 }
 .msjs{
-    width: 70%;
-    margin: 3px;
+    width: 60%;
+    margin: 2px;
     background-color: white;
    padding: 15px;
     height:65px;
@@ -89,23 +93,24 @@ a .msj:hover{
     margin-top: 30px;
 }
 #rpta{
- padding: 4px;
-    height: 35px;
-  margin-left: 75%;
-  width: 25%;
+    padding: 7px;
+    height: 40px;
+  margin-left: 70%;
+  width: 30%;
     background-color: #DCF8C6;
     
 }
 #rptagian{
-   height: 35px;
-  margin-left: 70%;
-  width: 30%;
-  padding: 4px;
+   height: 40px;
+  margin-left: 60%;
+  width: 40%;
+ padding: 7px;
     background-color: #DCF8C6;
 }
 #envio{
     background-color: #EEEEEE;
     margin: 0px;
+    margin-top: 5px;
 
 }
 .azul{
@@ -146,3 +151,7 @@ a .msj:hover{
     margin-left: 40px;
 
 }
+#hora{
+    margin-top: 15px;
+}
+ 
